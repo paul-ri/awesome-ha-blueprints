@@ -166,7 +166,7 @@ variables:
       button_release: [on_long_release]
     zigbee2mqtt:
       # source: https://www.zigbee2mqtt.io/devices/8718699693985.html#action-enum
-      button_short: [press]
+      button_short: [on, off]
       button_long: [hold]
       button_release: [release]
   # pre-choose actions for buttons based on configured integration
